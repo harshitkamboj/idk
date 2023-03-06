@@ -5,7 +5,7 @@ module.exports = {
 	token: process.env.token || "OTg2MTgwNjk3NjMyOTM1OTQ2.G33fuP.VQS6-ycJn3aPa1zql0zVwzSdSf2XP9GSsKG0rE", //- Bot's Token
 	clientId: process.env.clientId || "986180697632935946", //- ID of the bot
 	clientSecret: process.env.clientSecret || "LE1-OOhKEI3fXnBZzK7CyDQPbwuEphkB", //- Client Secret of the bot
-	port: 4200, //- Port of the API and Dashboard
+	port: 8000, //- Port of the API and Dashboard
 	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
 	serverDeafen: true, //- If you want bot to stay deafened
 	defaultVolume: 100, //- Sets the default volume of the bot, You can change this number anywhere from 1 to 100
@@ -18,7 +18,7 @@ module.exports = {
 	autoPause: true, //- When set to true, music will automatically be paused if everyone leaves the voice channel
 	debug: false, //- Debug mode
 	cookieSecret: "Harsh2004k!", //- Cookie Secret
-	website: "http://localhost:4200", //- without the / at the end
+	website: "https://levanter-29644-harshitkamboj.koyeb.app", //- without the / at the end
 	// You need a lavalink server for this bot to work!!!!
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
@@ -39,7 +39,7 @@ module.exports = {
 		activities: [
 			{
 				name: "Hentai", //- Status Text
-				type: "Watching", //- PLAYING, WATCHING, LISTENING, STREAMING
+				type: "WATCHING", //- PLAYING, WATCHING, LISTENING, STREAMING
 			},
 		],
 	},
