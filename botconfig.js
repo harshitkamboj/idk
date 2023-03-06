@@ -1,8 +1,8 @@
 module.exports = {
   Admins: ["Harsh2004k#3826"], // Admins of the bot, I don't know what this do. -Darren.
-  ExpressServer: false, // If you wanted to make the website run or not
+  ExpressServer: true, // If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || "/", // Default prefix, Server Admins can change the prefix
-  Port: 3000, //Which port website gonna be hosted
+  Port: 4200, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/r9w9pgMvpm", // Support Server Link
   Token: process.env.Token || "OTg2MTgwNjk3NjMyOTM1OTQ2.G33fuP.VQS6-ycJn3aPa1zql0zVwzSdSf2XP9GSsKG0rE", // Discord Bot Token
   ClientID: process.env.Discord_ClientID || "986180697632935946", // Discord Client ID
@@ -17,7 +17,7 @@ module.exports = {
     "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/logo.gif", // URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
   EmbedColor: "RANDOM", // Color of most embeds | Custom Hex value are supported. I.e: "#36393F"
   Permissions: 2205281600, // Bot Inviting Permissions
-  Website: process.env.Website || "https://example.com", // Website where it is hosted at includes http or https || Use "0.0.0.0" if you using Heroku || Do not include /api/callback. Just the website url. I.e. "https://foo.bar"
+  Website: process.env.Website || "http://localhost", // Website where it is hosted at includes http or https || Use "0.0.0.0" if you using Heroku || Do not include /api/callback. Just the website url. I.e. "https://foo.bar"
   // If you get invalid oauth, make sure on the discord developer page you set the oauth url to something like: https://example.com/api/callback.
 
   Presence: {
