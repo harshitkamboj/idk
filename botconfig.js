@@ -34,8 +34,8 @@ module.exports = {
     port: 443, // The port that lavalink is listening to. This must be a number!
     pass: "MrRobot123!", //- The password of the lavalink server.
     secure: true, // Set this to true if the lavalink uses SSL. if not set it to false.
-    retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
-    retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
+    retryAmount: 1000, //- The amount of times to retry connecting to the node if connection got dropped.
+    retryDelay: 10, //- Delay between reconnect attempts if connection is lost.
   },
   // Spotify Integration, allows you to enter a spotify link.
   Spotify: {
