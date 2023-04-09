@@ -39,8 +39,8 @@ module.exports = {
 		status: "online", //- You can have online, idle, dnd and invisible (Note: invisible makes people think the bot is offline)
 		activities: [
 			{
-				name: "Hentai", //- Status Text
-				type: "WATCHING", //- PLAYING, WATCHING, LISTENING, STREAMING
+				name: "Valorant", //- Status Text
+				type: "PLAYING", //- PLAYING, WATCHING, LISTENING, STREAMING
 			},
 		],
 	},
